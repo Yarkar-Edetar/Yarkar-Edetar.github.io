@@ -1,0 +1,120 @@
+body{
+    background-color: #224466;
+    font-family: 'MedievalSharpBold';
+}
+#UI {
+    position: relative;
+}
+#clickyThing{
+	cursor: pointer;
+	width: 480px;
+	height: 320px;
+    margin-top: 0%;
+    margin-left: 34.5%;
+    position: absolute;
+	user-drag: none; 
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+#bar {
+    position: absolute;
+    left: 77%;
+	margin-top: 5%;
+}
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    right: 0;
+    background-color: #123456; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+	overflow: auto;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-family: 'MedievalSharpBold';
+    font-size: 25px;
+    color: #FFFFFF;
+    display: block;
+    transition: 0.3s
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #FFbbFF;
+}
+
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    font-family: 'MedievalSharpBold';
+    font-size: 36px;
+    margin-right: 0px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-right .5s;
+    padding: 20px;
+}
+
+#choices {
+    color: white;
+    font-family: 'MedievalSharpBold';
+    background-color: #aa0000;
+    margin-top: 15%;
+    /*margin-left: -9%;*/
+    text-align: center;
+}
+#decisioninfo {
+    color: white;
+    font-family: 'MedievalSharpBold';
+    background-color: green;
+    top: 50%;
+    text-align: center;
+}
+.shopitem1, .shopitem2,.shopitem3,.shopitem4,.shopitem5,.shopitem6,.shopitem7,.shopitem8{
+	font-size: .5em
+}
+#raise{
+	margin-left: 45%;
+}
+#attack {
+    margin-left: 45%;
+}
+#agree {
+    margin-left: 45%;
+}
+#Reverse {
+    margin-left: 45%;
+}
+#trade {
+    margin-left: 45%;
+}
+#give {
+    margin-left: 45%;
+}
+#fire {
+    margin-left: 45%
+}
+#stats {
+	width: 60em;
+    background-color: #111155;
+    color: #abcdef;
+    font-family: 'MedievalSharpBold';
+}
